@@ -1,0 +1,6 @@
+procedures:
+- id: default
+  tasks:
+    - id: test_touch
+      command:
+        argv: ["touch", "test.txt"]

@@ -1,0 +1,8 @@
+hosts:
+  - id: local 
+    address: localhost
+    user: khill 
+    port: 22
+    auth:
+      password:
+        vault: web_pass
